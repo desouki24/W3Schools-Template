@@ -1,0 +1,266 @@
+body
+{
+   margin: 0;
+   padding: 0;
+}
+nav 
+{
+   display: flex;
+   height: auto;
+}
+nav .logo img
+{
+   width: 60px;
+   height: 60px;
+   padding-left: 15px;
+}
+nav .navLinks
+{
+   width: 90%;
+   display: flex; 
+   justify-content: space-between;
+}
+nav .links  ul
+{
+   display: flex;
+   justify-content: center;
+   height: 64px;
+   list-style: none;
+   margin: 0;
+}
+ nav .links  ul a 
+{
+   text-decoration: none;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #342a35;
+   font-weight: 600;
+}
+nav .links  ul  :hover {
+   background-color: #04aa6d;
+}
+nav .button 
+{
+   display: flex;
+   padding-top: 15px;  
+}
+nav .button button
+{
+   border-radius: 100px;
+   border-width: 0;
+   height: 30px;
+   margin-left: 10px; 
+}
+nav .button a 
+{
+   text-decoration: none;
+}
+nav .button .btn1
+{
+   background-color: #282a35;
+}
+nav .button .btn1 :hover
+{
+   opacity: 0.5;
+}
+nav .button .btn1 a 
+{
+   color: white;
+   font-weight: bold;
+}
+nav .button .btn2
+{
+   background-color: #ffc0c7;
+}
+nav .button .btn2 :hover
+{
+   opacity: 0.5;
+}
+nav .button .btn2 a 
+{
+   color: black;
+   font-weight: bold;
+}
+nav .button .btn3
+{
+   background-color: #fff4a3;
+}
+nav .button .btn3 :hover
+{
+   opacity: 0.5;
+}
+nav .button .btn3 a 
+{
+   color: black;
+   font-weight: bold;
+}
+nav .button .btn4
+{
+   background-color: #04aa6d;
+}
+nav .button .btn4 :hover
+{
+   opacity: 0.5;
+}
+nav .button .btn4 a 
+{
+   color: white;
+   font-weight: bold;
+}
+.header
+{
+   display: flex;
+   background-color: #282a35;
+   height: 45px;
+   margin-right: 0px;
+}
+.header .headerLogo span 
+{
+   color: #f1f1f1;
+   padding-top: 10px;  
+   padding-left: 5px;
+}
+.header ul 
+{
+   display: flex;
+   list-style: none;
+   margin: 0;
+   padding-left: 0;
+}
+.header ul :hover 
+{
+   background-color: black;
+}
+.header ul a 
+{
+   text-decoration: none;
+   padding-left: 15px;
+   margin: 0;
+   padding-top: 15px;
+   padding-right: 15px;
+   color: #f1f1f1;
+   font-weight: 600;
+}
+.header .headerSearch span 
+{
+   color: #f1f1f1;
+   padding-top: 10px; 
+   padding-left: 1100px; 
+}
+.Scrolling{
+   float: left;
+   width: 12%;
+   height: 650px;
+   background-color:#e7e9eb;
+   overflow: scroll;
+}
+.Scrolling h3 
+{
+   padding-left: 10px;
+}
+.Scrolling ul 
+{
+   list-style: none;
+   padding-left: 10px; 
+}
+.Scrolling ul a 
+{
+   text-decoration: none;
+   color: black;  
+}
+.View 
+{
+   width: 76%;
+}
+.View h1 
+{
+   padding-left: 200px;
+   padding-top: 30px;
+}
+.View .viewBotton
+{
+   display: flex;
+   justify-content:space-between;
+   padding-left: 17px;
+}
+.View .viewBotton button
+{
+   height: 40px;
+   width: 80px;
+   border-radius: 10px;
+   border-width: 0;
+   background-color: #04aa6d;
+}
+.View .viewBotton button :hover
+{
+   opacity: 0.5;
+}
+.View .viewBotton button a
+{
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+}
+.View .box 
+{
+   background-color: #d9eee1;
+   height: 400px;
+   margin-top: 15px;
+}
+.View .box p
+{
+   font-size: 20px;
+   line-height: 40px;
+   padding-top: 40px;
+   padding-left: 220px; 
+}
+.View .box button
+{
+   margin-left: 30px;
+   margin-top: 25px;
+   height: 40px;
+   width: 300px;
+   border-radius: 5px;
+   border-width: 0;
+}
+.View .box button a
+{
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+}
+.View .box .btn1
+{
+   background-color: #04aa6d;
+}
+.View .box .btn1 :hover
+{
+   opacity: 0.5;
+}
+
+.View .box .btn2
+{
+   background-color:#282a35;
+}
+.View .box .btn2 :hover 
+{
+   opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
